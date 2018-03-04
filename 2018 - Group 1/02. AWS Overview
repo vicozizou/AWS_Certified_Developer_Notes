@@ -1,0 +1,32 @@
+# Overview
+
+## History *(not in the exam)*
+- Conceived in response to cloud computing
+- 2003 Chris Pinkhan and Benjamin Black presents paper on what Amazon's internal infrastructure should look like
+- Suggested sell it as a service
+- 2004 SQS officially launched
+- 2006 AWS officially launched
+- 2007 180,000+ developers
+
+## AWS Global Infrastructure
+- Regions, Availability Zones (AZ) and Edge Locations (EL)
+- 2017: 16 Regions, 44 AZ and 96 EL
+- For 2018: 6 Regions and 17 AZ
+- Region: geographical area (London, Tokyo, Syndey), 2+ AZ
+- AZ: 1+ discrete data centers, place to put resources with power/networking/connectivity, housed in separated facilities
+- EL: endpoints for caching content -> CloudFront: Amazon's CDN
+
+## AWS Platform - Concepts and Components (take a look at AWS Console)
+### Compute
+#### EC2
+- Elastic Compute Cloud
+- Consists in VMs inside the AWS platform (physical as well)
+
+#### EC2 Container Service
+- Run and manage Docker container at scan_length
+
+#### Elastic Beanstalk
+- For devs who don't understand (and don't want to) AWS and just want to upload and focus on code
+- Provision load balancers, EC2, scaling groups
+
+#### Lamdba
